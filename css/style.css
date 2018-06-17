@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#application{
+	font-family:'Montserrat', sans-serif;
+}
+
+.header{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:4em;
+	background:#37435f;
+}
+
+.headerContainer{
+	width:50%;
+	margin:0 auto;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.logo{
+	margin:1.3em 0;
+}
+
+.logo a{
+	color:#fff;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.primaryNav{
+	margin:1.3em 0;
+}
+
+.primaryNav ul{
+	display:flex;
+	flex-direction:row;
+}
+
+.primaryNav ul li{
+	list-style:none;
+	margin:0 0 0 15px;
+}
+
+.primaryNav ul li a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:0.8em;
+	font-weight:bold;
+}
+
+.primaryNav ul li a.navButton{
+	padding:10px;
+	background:#01C3A7;
+	border-radius:5px;
+	border:2px solid #01C3A7;	
+}
+
+.main{
+	position:relative;
+	margin:4em 0;
+}
+
+.main .banner{
+	z-index:1;
+}
+
+.main .banner img{
+	width:100%;
+}
+
+.main .mainContainer{
+	position:relative;
+	margin:-70em auto;
+	width:50%;
+	z-index:2;
+}
+
+.main .mainHeader{
+	position:relative;
+	font-weight:300;
+	text-align:center;
+	margin:10em 0 2em 0;
+	color:#fff;
+	text-shadow:0.5px 0.5px 0.5px #000;
+}
+
+.main .searchForm{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.main .searchBlockLeft{
+	padding:25px;
+	border-radius:5px;
+	background:#fff;
+	width:43%;
+}
+
+.main .searchBlockRight{
+	border-radius:5px;
+	background:#fff;
+	width:43%;
+}
+
+.main .formHeader{
+	margin:10px 0 15px 0;	
+	font-size:1.2em;
+}
+
+.main .searchBlockLeft form{
+	margin:0 0 15px 0;	
+}
+
+.main .searchBlockLeft input{
+	width:90%;
+	padding:10px;
+	margin:5px 0;
+	border-radius:3px;
+	border:1px solid #ccc;
+}
+
+.main .searchBlockLeft input:focus{
+	border:1px solid #ff0000;
+}
+
+#activeDatePicker{
+	display:none;
+}
+
+.topCityFrom{
+	display:none;
+}
+
+.topCityList{
+	margin:15px 0;
+}
+
+.topCityList li{
+	border:1px solid #ccc;
+	border-radius:5px;
+	padding:10px;
+	color:#676767;
+	list-style:none;
+	cursor:pointer;
+	margin:0;
+}
+
+.topCityList li:hover{
+	background: #ccc;
+	color:#404040;
+}
+
+.topCityList li i{
+	padding-right:10px;
+}
+
+.topCityTo{
+	display:none;
+}
+
+.dateDeparture{
+	display:none;
+}
+
+
+.rightContentHeader{
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background:#37435f;
+	padding:15px;
+	color:#fff;
+	font-size:1em;
+	font-weight:bold;
+}
+
+.rightContentTitle{}
+
+
+.rightContentMain{
+	padding:25px;
+}
+
+.resultCity, .topCityFrom, .topCityTo{
+	padding:10px 25px;
+}
